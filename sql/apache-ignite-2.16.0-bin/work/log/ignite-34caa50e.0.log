@@ -1,0 +1,188 @@
+[13:30:43,018][WARNING][main][G] Ignite work directory is not provided, automatically resolved to: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work
+[13:30:43,026][WARNING][main][G] Consistent ID is not set, it is recommended to set consistent ID for production clusters (use IgniteConfiguration.setConsistentId property)
+[13:30:43,104][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.16.0#20231215-sha1:7bde6a42
+>>> 2023 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: https://ignite.apache.org
+
+[13:30:43,110][INFO][main][IgniteKernal] Config URL: file:/C:/Users/pipi/OneDrive/桌面/apache-ignite-2.16.0-bin/config/default-config.xml
+[13:30:43,122][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=16, svcPoolSize=16, callbackPoolSize=16, stripedPoolSize=16, sysPoolSize=16, mgmtPoolSize=4, dataStreamerPoolSize=16, utilityCachePoolSize=16, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=16, buildIdxPoolSize=4, igniteHome=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin, igniteWorkDir=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@59402b8f, nodeId=34caa50e-f5a5-49f4-82ce-fb482343e466, marsh=BinaryMarshaller [], marshLocJobs=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=USE_FAILURE_HANDLER, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@5b11a194, ctxInitLatch=java.util.concurrent.CountDownLatch@37bd68c3[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@60f7cc1d, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@630cb4a4, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@636e8cc, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@f79a760, clientMode=false, rebalanceThreadPoolSize=4, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=3, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, sysWorkerBlockedTimeout=null, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslFactory=null, portRange=100, threadPoolSize=16, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [pageSize=0, concLvl=0, sysDataRegConf=org.apache.ignite.configuration.SystemDataRegionConfiguration@4c37b5b, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=3396068147, initSize=268435456, swapPath=null, pageEvictionMode=DISABLED, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=true, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null, memoryAllocator=null, cdcEnabled=false], dataRegions=null, storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, maxWalArchiveSize=1073741824, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, cdcWalPath=db/wal/cdc, cdcWalDirMaxSize=0, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@78a287ed, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, walForceArchiveTimeout=-1, writeThrottlingEnabled=false, walCompactionEnabled=false, walCompactionLevel=1, checkpointReadLockTimeout=null, walPageCompression=DISABLED, walPageCompressionLevel=null, dfltWarmUpCfg=null, encCfg=org.apache.ignite.configuration.EncryptionConfiguration@5357c287, defragmentationThreadPoolSize=4, minWalArchiveSize=-1, memoryAllocator=null], snapshotPath=snapshots, snapshotThreadPoolSize=4, activeOnStart=true, activeOnStartPropSetFlag=false, autoActivation=true, autoActivationPropSetFlag=false, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=16, selectorCnt=8, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0, sendServerExcStackTraceToClient=false], sesOutboundMsgQueueLimit=0], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=3000, dfltQryTimeout=0, sqlQryHistSize=1000, validationEnabled=false], asyncContinuationExecutor=null]
+[13:30:43,123][INFO][main][IgniteKernal] OS: Windows 11 10.0 amd64
+[13:30:43,123][INFO][main][IgniteKernal] OS user: pipi
+[13:30:43,131][INFO][main][IgniteKernal] PID: 22716
+[13:30:43,131][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 22
+[13:30:43,133][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 22.0.1+8-16 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
+[13:30:43,133][INFO][main][IgniteKernal] VM total memory: 1.0GB
+[13:30:43,133][INFO][main][IgniteKernal] Remote Management [restart: on, REST: on, JMX (remote: off)]
+[13:30:43,133][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[13:30:43,134][INFO][main][IgniteKernal] IGNITE_HOME=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin
+[13:30:43,134][INFO][main][IgniteKernal] VM arguments: [--add-opens=java.base/jdk.internal.access=ALL-UNNAMED, --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.util.calendar=ALL-UNNAMED, --add-opens=java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED, --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.base/java.math=ALL-UNNAMED, --add-opens=java.sql/java.sql=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, -Xms1g, -Xmx1g, -XX:MaxMetaspaceSize=256m, -DIGNITE_QUIET=true, -DIGNITE_SUCCESS_FILE=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\ignite_success_0150cf7f-1f9e-4053-8824-b800888a583e, -DIGNITE_HOME=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin, -DIGNITE_PROG_NAME=ignite.bat, -Dfile.encoding=UTF-8]
+[13:30:43,134][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemRegionInitialSize property to change the setting.
+[13:30:43,134][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'default' dataRegion: ['TestCache']]
+[13:30:43,134][WARNING][main][IgniteKernal] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[13:30:43,134][INFO][main][IgniteKernal] 3-rd party licenses can be found at: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\libs\licenses
+[13:30:43,198][INFO][main][IgnitePluginProcessor] Configured plugins:
+[13:30:43,198][INFO][main][IgnitePluginProcessor]   ^-- None
+[13:30:43,198][INFO][main][IgnitePluginProcessor] 
+[13:30:43,199][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[13:30:43,437][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=8, selectorSpins=0, pairedConn=false]
+[13:30:43,438][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[13:30:43,464][INFO][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[13:30:43,500][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=34caa50e-f5a5-49f4-82ce-fb482343e466]
+[13:30:43,503][INFO][main][MaintenanceProcessor] Resolved store directory for node persistent data: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,531][INFO][main][CacheObjectBinaryProcessorImpl] Resolved directory for serialized binary metadata: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\binary_meta\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,665][INFO][main][GridLocalConfigManager] Resolved page store work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,683][INFO][main][FilePageStoreManager] Resolved page store work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,686][INFO][main][FileWriteAheadLogManager] Resolved write ahead log work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,686][INFO][main][FileWriteAheadLogManager] Resolved write ahead log archive directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\archive\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[13:30:43,713][INFO][main][FileHandleManagerImpl] Initialized write-ahead log manager [mode=LOG_ONLY]
+[13:30:43,736][INFO][main][GridCacheDatabaseSharedManager] Configured data regions initialized successfully [total=5]
+[13:30:43,753][INFO][main][IgniteSnapshotManager] Resolved temp directory for snapshot creation: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\snp
+[13:30:43,754][INFO][main][IgniteSnapshotManager] Resolved snapshot work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\snapshots
+[13:30:43,807][WARNING][main][IgniteH2Indexing] Serialization of Java objects in H2 was enabled.
+[13:30:43,946][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[13:30:43,983][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[13:30:44,030][INFO][main][IgniteKernal] Non-loopback local IPs: 192.168.1.201, fe80:0:0:0:50aa:704c:dc86:cc97%ethernet_32769, fe80:0:0:0:d28d:5091:418f:8ea7%wireless_32769, fe80:0:0:0:dd5a:4392:a3e4:5907%wireless_32768, fe80:0:0:0:de3e:31df:6220:8ab5%ethernet_32770, fe80:0:0:0:fbb0:611b:a364:8ccc%wireless_32770
+[13:30:44,030][INFO][main][IgniteKernal] Enabled local MACs: 0433C2F50C17, 0433C2F50C18, 0433C2F50C1B, 0633C2F50C17, 2CF05D64F75A
+[13:30:44,036][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[13:30:44,044][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[13:30:44,045][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=WALPointer [idx=1, fileOff=18838549, len=11624], lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[13:30:44,107][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=4e2dfa8f-52b1-4931-873e-96122dc57bba, pos=WALPointer [idx=1, fileOff=18838549, len=11624]]
+[13:30:44,150][INFO][main][GridCacheDatabaseSharedManager] Applying lost metastore updates since last checkpoint record [lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[13:30:44,174][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=16 ms]
+[13:30:44,174][INFO][main][GridCacheProcessor] Restoring partition state for local groups.
+[13:30:44,177][INFO][main][GridCacheProcessor] Finished restoring partition state for local groups [groupsProcessed=0, partitionsProcessed=0, time=0ms]
+[13:30:44,201][INFO][main][GridEncryptionManager] Encryption keys loaded from metastore. [grps=, masterKeyName=null]
+[13:30:44,215][INFO][main][GridClusterStateProcessor] Restoring history for BaselineTopology[id=0]
+[13:30:44,238][INFO][main][ClusterProcessor] Cluster ID and tag has been read from metastorage: ClusterIdAndTag [id=2aaaec85-dc63-4a44-b4a0-40d278124f19, tag=funny_hoover]
+[13:30:44,244][INFO][main][IgniteClusterImpl] Shutdown policy was updated [oldVal=null, newVal=null]
+[13:30:44,245][INFO][main][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'false'
+[13:30:44,246][INFO][main][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '300000'
+[13:30:44,246][INFO][main][IgniteTxManager] Transactions parameter 'txOwnerDumpRequestsAllowed' was changed from 'null' to 'true'
+[13:30:44,246][INFO][main][IgniteTxManager] Transactions parameter 'longOperationsDumpTimeout' was changed from 'null' to '60000'
+[13:30:44,246][INFO][main][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpThreshold' was changed from 'null' to '0'
+[13:30:44,247][INFO][main][IgniteTxManager] Transactions parameter 'transactionTimeDumpSamplesCoefficient' was changed from 'null' to '0.0'
+[13:30:44,247][INFO][main][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpSamplesPerSecondLimit' was changed from 'null' to '5'
+[13:30:44,247][INFO][main][IgniteTxManager] Transactions parameter 'collisionsDumpInterval' was changed from 'null' to '1000'
+[13:30:44,247][INFO][main][GridCacheDatabaseSharedManager] Historical rebalance WAL threshold changed [property=historical.rebalance.threshold, oldVal=null, newVal=500]
+[13:30:44,248][INFO][main][GridCacheDatabaseSharedManager] Checkpoint frequency deviation changed [oldVal=null, newVal=null]
+[13:30:44,248][INFO][main][IgniteSnapshotManager] The snapshot transfer rate is not limited.
+[13:30:44,248][INFO][main][IgniteH2Indexing] SQL parameter 'sql.defaultQueryTimeout' was changed from 'null' to '0'
+[13:30:44,248][INFO][main][IgniteH2Indexing] SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
+[13:30:44,249][INFO][main][IgniteStatisticsManagerImpl] Statistics usage state was changed from null to null
+[13:30:44,251][INFO][main][FilePageStoreManager] Cleanup cache stores [total=1, left=0, cleanFiles=false]
+[13:30:44,253][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[13:30:44,254][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[13:30:44,256][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[13:30:44,256][INFO][main][GridCacheDatabaseSharedManager] Data Regions Started: 5
+[13:30:44,258][INFO][main][GridCacheDatabaseSharedManager] Starting binary memory restore for: [-479252689, -2100569601, 797418992]
+[13:30:44,733][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[13:30:44,733][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=WALPointer [idx=1, fileOff=18838549, len=11624], lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[13:30:44,769][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=4e2dfa8f-52b1-4931-873e-96122dc57bba, pos=WALPointer [idx=1, fileOff=18838549, len=11624]]
+[13:30:44,774][INFO][main][GridCacheDatabaseSharedManager] Binary memory state restored at node startup [restoredPtr=WALPointer [idx=1, fileOff=18850301, len=0]]
+[13:30:44,797][INFO][main][FileWriteAheadLogManager] Resuming logging to WAL segment [file=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\0000000000000001.wal, offset=18850301, ver=2]
+[13:30:44,834][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=3.2 GiB, pages=803664, tableSize=62.5 MiB, replacementSize=98.1 KiB, checkpointBuffer=809.7 MiB]
+[13:30:44,885][INFO][main][GridCacheProcessor] Started cache in recovery mode [name=my_cache, id=-479252689, dataRegionName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[13:30:44,890][INFO][main][GridCacheProcessor] Started cache in recovery mode [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647]
+[13:30:44,895][INFO][main][GridCacheProcessor] Started cache in recovery mode [name=TestCache, id=797418992, dataRegionName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=1]
+[13:30:44,896][INFO][main][GridCacheDatabaseSharedManager] Binary recovery performed in 638 ms.
+[13:30:44,898][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[13:30:44,899][INFO][main][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[13:30:44,920][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=15 ms]
+[13:30:44,920][INFO][main][GridCacheProcessor] Restoring partition state for local groups.
+[13:30:45,093][INFO][main][GridCacheProcessor] Finished restoring partition state for local groups [groupsProcessed=3, partitionsProcessed=2148, time=170ms]
+[13:30:46,652][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=54037]
+[13:30:46,655][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=54037]
+[13:30:46,655][INFO][tcp-disco-sock-reader-[]-#5-#93][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:54037, rmtPort=54037]
+[13:30:46,656][INFO][tcp-disco-sock-reader-[]-#5-#93][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895, rmtAddr=/192.168.1.206:54037, rmtPort=54037]
+[13:30:46,656][INFO][tcp-disco-sock-reader-[]-#5-#93][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895, rmtAddr=/192.168.1.206:54037, rmtPort=54037]
+[13:30:46,657][INFO][tcp-disco-sock-reader-[]-#5-#93][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:54037, rmtPort=54037, rmtNodeId=null]
+[13:30:46,698][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=54038]
+[13:30:46,698][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=54038]
+[13:30:46,698][INFO][tcp-disco-sock-reader-[]-#6-#94][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:54038, rmtPort=54038]
+[13:30:46,699][INFO][tcp-disco-sock-reader-[]-#6-#94][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895, rmtAddr=/192.168.1.206:54038, rmtPort=54038]
+[13:30:46,699][INFO][tcp-disco-sock-reader-[]-#6-#94][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895, rmtAddr=/192.168.1.206:54038, rmtPort=54038]
+[13:30:46,699][INFO][tcp-disco-sock-reader-[]-#6-#94][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:54038, rmtPort=54038, rmtNodeId=null]
+[13:30:46,728][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=54039]
+[13:30:46,728][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=54039]
+[13:30:46,728][INFO][tcp-disco-sock-reader-[]-#7-#95][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:54039, rmtPort=54039]
+[13:30:46,729][INFO][tcp-disco-sock-reader-[88c0c00a 192.168.1.206:54039]-#7-#95][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895, rmtAddr=/192.168.1.206:54039]
+[13:30:46,744][SEVERE][main][IgniteKernal] Failed to start manager: GridManagerAdapter [enabled=true, name=o.a.i.i.managers.discovery.GridDiscoveryManager]
+class org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [clsFilter=org.apache.ignite.marshaller.MarshallerUtils$1@68ea253b], reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:280)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:1076)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1774)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:1161)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1725)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1647)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1089)
+	at org.apache.ignite.internal.IgnitionEx.startConfigurations(IgnitionEx.java:983)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:889)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:808)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:678)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:647)
+	at org.apache.ignite.Ignition.start(Ignition.java:325)
+	at org.apache.ignite.startup.cmdline.CommandLineStartup.main(CommandLineStartup.java:365)
+Caused by: class org.apache.ignite.spi.IgniteSpiException: BaselineTopology of joining node (0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500) is not compatible with BaselineTopology in the cluster. Branching history of cluster BlT ([-3354634766, -1638113819, 0]) doesn't contain branching point hash of joining node BlT (-2221453726). Consider cleaning persistent storage of the node and adding it to the cluster again.
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:2110)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:1204)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:472)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:2206)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:277)
+	... 13 more
+[13:30:46,745][SEVERE][main][IgniteKernal] Got exception while starting (will rollback startup routine).
+class org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1779)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:1161)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1725)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1647)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1089)
+	at org.apache.ignite.internal.IgnitionEx.startConfigurations(IgnitionEx.java:983)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:889)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:808)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:678)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:647)
+	at org.apache.ignite.Ignition.start(Ignition.java:325)
+	at org.apache.ignite.startup.cmdline.CommandLineStartup.main(CommandLineStartup.java:365)
+Caused by: class org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [clsFilter=org.apache.ignite.marshaller.MarshallerUtils$1@68ea253b], reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:280)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:1076)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1774)
+	... 11 more
+Caused by: class org.apache.ignite.spi.IgniteSpiException: BaselineTopology of joining node (0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500) is not compatible with BaselineTopology in the cluster. Branching history of cluster BlT ([-3354634766, -1638113819, 0]) doesn't contain branching point hash of joining node BlT (-2221453726). Consider cleaning persistent storage of the node and adding it to the cluster again.
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:2110)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:1204)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:472)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:2206)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:277)
+	... 13 more
+[13:30:46,747][INFO][main][GridTcpRestProtocol] Command protocol successfully stopped: TCP binary
+[13:30:46,753][WARNING][tcp-disco-sock-reader-[88c0c00a 192.168.1.206:54039]-#7-#95][TcpDiscoverySpi] Failed to shutdown socket
+java.net.SocketException: Connection reset by peer: shutdown
+	at java.base/sun.nio.ch.Net.shutdown(Native Method)
+	at java.base/sun.nio.ch.NioSocketImpl.shutdownOutput(NioSocketImpl.java:1170)
+	at java.base/java.net.Socket.shutdownOutput(Socket.java:1818)
+	at org.apache.ignite.internal.util.IgniteUtils.close(IgniteUtils.java:4396)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl$SocketReader.body(ServerImpl.java:7312)
+	at org.apache.ignite.spi.IgniteSpiThread.run(IgniteSpiThread.java:58)
+[13:30:46,753][INFO][tcp-disco-sock-reader-[88c0c00a 192.168.1.206:54039]-#7-#95][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:54039, rmtPort=54039, rmtNodeId=88c0c00a-99f7-4653-ac50-5a0fbaa3d895]
+[13:30:51,756][INFO][main][TcpDiscoverySpi] No verification for local node leave has been received from coordinator (will stop node anyway).
+[13:30:51,757][INFO][main][GridCacheProcessor] Stopped cache [cacheName=my_cache]
+[13:30:51,757][INFO][main][GridCacheProcessor] Stopped cache [cacheName=TestCache]
+[13:30:51,757][INFO][main][GridCacheProcessor] Stopped cache [cacheName=ignite-sys-cache]
+[13:30:51,851][INFO][main][FilePageStoreManager] Cleanup cache stores [total=5, left=0, cleanFiles=false]
+[13:30:51,856][INFO][main][IgniteKernal] 
+
+>>> +----------------------------------------------------------------------------------+
+>>> Ignite ver. 2.16.0#20231215-sha1:7bde6a42b7fda05f8058350d30d67e57ada216d0 stopped OK
+>>> +----------------------------------------------------------------------------------+
+>>> Grid uptime: 00:00:09.430
+
+

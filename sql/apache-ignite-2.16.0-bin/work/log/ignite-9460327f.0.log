@@ -1,0 +1,262 @@
+[16:55:50,185][WARNING][main][G] Ignite work directory is not provided, automatically resolved to: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work
+[16:55:50,190][WARNING][main][G] Consistent ID is not set, it is recommended to set consistent ID for production clusters (use IgniteConfiguration.setConsistentId property)
+[16:55:50,256][INFO][main][IgniteKernal] 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.16.0#20231215-sha1:7bde6a42
+>>> 2023 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: https://ignite.apache.org
+
+[16:55:50,263][INFO][main][IgniteKernal] Config URL: file:/C:/Users/pipi/OneDrive/桌面/apache-ignite-2.16.0-bin/config/default-config.xml
+[16:55:50,275][INFO][main][IgniteKernal] IgniteConfiguration [igniteInstanceName=null, pubPoolSize=16, svcPoolSize=16, callbackPoolSize=16, stripedPoolSize=16, sysPoolSize=16, mgmtPoolSize=4, dataStreamerPoolSize=16, utilityCachePoolSize=16, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=16, buildIdxPoolSize=4, igniteHome=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin, igniteWorkDir=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@79defdc, nodeId=9460327f-ba1d-4873-a9e4-7011e8aadc2b, marsh=BinaryMarshaller [], marshLocJobs=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, addressFilter=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, soLinger=0, forceSrvMode=false, clientReconnectDisabled=false, internalLsnr=null, skipAddrsRandomization=false], segPlc=USE_FAILURE_HANDLER, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=org.apache.ignite.spi.communication.tcp.internal.ConnectGateway@1e63ec0b, ctxInitLatch=java.util.concurrent.CountDownLatch@3b956878[Count = 1], stopping=false, clientPool=null, nioSrvWrapper=null, stateProvider=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@36546a22, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@3d484181, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@6111ba37, tracingSpi=org.apache.ignite.spi.tracing.NoopTracingSpi@7be58f16, clientMode=false, rebalanceThreadPoolSize=4, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=3, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, sysWorkerBlockedTimeout=null, clientFailureDetectionTimeout=30000, metricsLogFreq=60000, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslFactory=null, portRange=100, threadPoolSize=16, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [pageSize=0, concLvl=0, sysDataRegConf=org.apache.ignite.configuration.SystemDataRegionConfiguration@14f5da2c, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=3396068147, initSize=268435456, swapPath=null, pageEvictionMode=DISABLED, pageReplacementMode=CLOCK, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=false, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0, lazyMemoryAllocation=true, warmUpCfg=null, memoryAllocator=null, cdcEnabled=false], dataRegions=null, storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, maxWalArchiveSize=1073741824, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, cdcWalPath=db/wal/cdc, cdcWalDirMaxSize=0, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@30f5a68a, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, walForceArchiveTimeout=-1, writeThrottlingEnabled=false, walCompactionEnabled=false, walCompactionLevel=1, checkpointReadLockTimeout=null, walPageCompression=DISABLED, walPageCompressionLevel=null, dfltWarmUpCfg=null, encCfg=org.apache.ignite.configuration.EncryptionConfiguration@4f2c9ba6, defragmentationThreadPoolSize=4, minWalArchiveSize=-1, memoryAllocator=null], snapshotPath=snapshots, snapshotThreadPoolSize=4, activeOnStart=true, activeOnStartPropSetFlag=false, autoActivation=true, autoActivationPropSetFlag=false, clusterStateOnStart=null, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=16, selectorCnt=8, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100, maxActiveComputeTasksPerConn=0, sendServerExcStackTraceToClient=false], sesOutboundMsgQueueLimit=0], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=null, sqlCfg=SqlConfiguration [longQryWarnTimeout=3000, dfltQryTimeout=0, sqlQryHistSize=1000, validationEnabled=false], asyncContinuationExecutor=null]
+[16:55:50,275][INFO][main][IgniteKernal] OS: Windows 11 10.0 amd64
+[16:55:50,275][INFO][main][IgniteKernal] OS user: pipi
+[16:55:50,283][INFO][main][IgniteKernal] PID: 19304
+[16:55:50,284][INFO][main][IgniteKernal] Language runtime: Java Platform API Specification ver. 22
+[16:55:50,284][INFO][main][IgniteKernal] VM information: Java(TM) SE Runtime Environment 22.0.1+8-16 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
+[16:55:50,284][INFO][main][IgniteKernal] VM total memory: 1.0GB
+[16:55:50,285][INFO][main][IgniteKernal] Remote Management [restart: on, REST: on, JMX (remote: off)]
+[16:55:50,285][INFO][main][IgniteKernal] Logger: JavaLogger [quiet=true, config=null]
+[16:55:50,285][INFO][main][IgniteKernal] IGNITE_HOME=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin
+[16:55:50,285][INFO][main][IgniteKernal] VM arguments: [--add-opens=java.base/jdk.internal.access=ALL-UNNAMED, --add-opens=java.base/jdk.internal.misc=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.util.calendar=ALL-UNNAMED, --add-opens=java.management/com.sun.jmx.mbeanserver=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED, --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.base/java.math=ALL-UNNAMED, --add-opens=java.sql/java.sql=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, -Xms1g, -Xmx1g, -XX:MaxMetaspaceSize=256m, -DIGNITE_QUIET=true, -DIGNITE_SUCCESS_FILE=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\ignite_success_b6a82c10-96b5-4a22-9869-b68b408de378, -DIGNITE_HOME=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin, -DIGNITE_PROG_NAME=ignite.bat, -Dfile.encoding=UTF-8]
+[16:55:50,285][INFO][main][IgniteKernal] System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemRegionInitialSize property to change the setting.
+[16:55:50,285][INFO][main][IgniteKernal] Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'default' dataRegion: ['my_cache']]
+[16:55:50,286][WARNING][main][IgniteKernal] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[16:55:50,286][INFO][main][IgniteKernal] 3-rd party licenses can be found at: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\libs\licenses
+[16:55:50,342][INFO][main][IgnitePluginProcessor] Configured plugins:
+[16:55:50,342][INFO][main][IgnitePluginProcessor]   ^-- None
+[16:55:50,343][INFO][main][IgnitePluginProcessor] 
+[16:55:50,344][INFO][main][FailureProcessor] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+[16:55:50,545][INFO][main][TcpCommunicationSpi] Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=8, selectorSpins=0, pairedConn=false]
+[16:55:50,545][WARNING][main][TcpCommunicationSpi] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[16:55:50,570][INFO][main][GridCollisionManager] Collision resolution is disabled (all jobs will be activated upon arrival).
+[16:55:50,597][INFO][main][TcpDiscoverySpi] Successfully bound to TCP port [port=47500, localHost=0.0.0.0/0.0.0.0, locNodeId=9460327f-ba1d-4873-a9e4-7011e8aadc2b]
+[16:55:50,602][INFO][main][MaintenanceProcessor] Resolved store directory for node persistent data: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,628][INFO][main][CacheObjectBinaryProcessorImpl] Resolved directory for serialized binary metadata: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\binary_meta\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,748][INFO][main][GridLocalConfigManager] Resolved page store work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,763][INFO][main][FilePageStoreManager] Resolved page store work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,767][INFO][main][FileWriteAheadLogManager] Resolved write ahead log work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,768][INFO][main][FileWriteAheadLogManager] Resolved write ahead log archive directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\archive\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500
+[16:55:50,794][INFO][main][FileHandleManagerImpl] Initialized write-ahead log manager [mode=LOG_ONLY]
+[16:55:50,819][INFO][main][GridCacheDatabaseSharedManager] Configured data regions initialized successfully [total=5]
+[16:55:50,836][INFO][main][IgniteSnapshotManager] Resolved temp directory for snapshot creation: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\snp
+[16:55:50,836][INFO][main][IgniteSnapshotManager] Resolved snapshot work directory: C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\snapshots
+[16:55:50,882][WARNING][main][IgniteH2Indexing] Serialization of Java objects in H2 was enabled.
+[16:55:51,002][INFO][main][ClientListenerProcessor] Client connector processor has started on TCP port 10800
+[16:55:51,039][INFO][main][GridTcpRestProtocol] Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+[16:55:51,078][INFO][main][IgniteKernal] Non-loopback local IPs: 192.168.1.201, fe80:0:0:0:50aa:704c:dc86:cc97%ethernet_32769, fe80:0:0:0:d28d:5091:418f:8ea7%wireless_32769, fe80:0:0:0:dd5a:4392:a3e4:5907%wireless_32768, fe80:0:0:0:de3e:31df:6220:8ab5%ethernet_32770, fe80:0:0:0:fbb0:611b:a364:8ccc%wireless_32770
+[16:55:51,079][INFO][main][IgniteKernal] Enabled local MACs: 0433C2F50C17, 0433C2F50C18, 0433C2F50C1B, 0633C2F50C17, 2CF05D64F75A
+[16:55:51,085][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[16:55:51,092][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[16:55:51,093][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=WALPointer [idx=1, fileOff=18838549, len=11624], lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[16:55:51,155][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=4e2dfa8f-52b1-4931-873e-96122dc57bba, pos=WALPointer [idx=1, fileOff=18838549, len=11624]]
+[16:55:51,197][INFO][main][GridCacheDatabaseSharedManager] Applying lost metastore updates since last checkpoint record [lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[16:55:51,220][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=16 ms]
+[16:55:51,220][INFO][main][GridCacheProcessor] Restoring partition state for local groups.
+[16:55:51,222][INFO][main][GridCacheProcessor] Finished restoring partition state for local groups [groupsProcessed=0, partitionsProcessed=0, time=0ms]
+[16:55:51,246][INFO][main][GridEncryptionManager] Encryption keys loaded from metastore. [grps=, masterKeyName=null]
+[16:55:51,260][INFO][main][GridClusterStateProcessor] Restoring history for BaselineTopology[id=0]
+[16:55:51,274][WARNING][main][GridLocalConfigManager] Static configuration for the following caches will be ignored because a persistent cache with the same name already exist (see https://apacheignite.readme.io/docs/cache-configuration for more information): [my_cache]
+[16:55:51,282][INFO][main][ClusterProcessor] Cluster ID and tag has been read from metastorage: ClusterIdAndTag [id=2aaaec85-dc63-4a44-b4a0-40d278124f19, tag=funny_hoover]
+[16:55:51,285][INFO][main][IgniteClusterImpl] Shutdown policy was updated [oldVal=null, newVal=null]
+[16:55:51,286][INFO][main][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'false'
+[16:55:51,287][INFO][main][DistributedBaselineConfiguration] Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '300000'
+[16:55:51,287][INFO][main][IgniteTxManager] Transactions parameter 'txOwnerDumpRequestsAllowed' was changed from 'null' to 'true'
+[16:55:51,287][INFO][main][IgniteTxManager] Transactions parameter 'longOperationsDumpTimeout' was changed from 'null' to '60000'
+[16:55:51,287][INFO][main][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpThreshold' was changed from 'null' to '0'
+[16:55:51,287][INFO][main][IgniteTxManager] Transactions parameter 'transactionTimeDumpSamplesCoefficient' was changed from 'null' to '0.0'
+[16:55:51,288][INFO][main][IgniteTxManager] Transactions parameter 'longTransactionTimeDumpSamplesPerSecondLimit' was changed from 'null' to '5'
+[16:55:51,288][INFO][main][IgniteTxManager] Transactions parameter 'collisionsDumpInterval' was changed from 'null' to '1000'
+[16:55:51,288][INFO][main][GridCacheDatabaseSharedManager] Historical rebalance WAL threshold changed [property=historical.rebalance.threshold, oldVal=null, newVal=500]
+[16:55:51,289][INFO][main][GridCacheDatabaseSharedManager] Checkpoint frequency deviation changed [oldVal=null, newVal=null]
+[16:55:51,289][INFO][main][IgniteSnapshotManager] The snapshot transfer rate is not limited.
+[16:55:51,289][INFO][main][IgniteH2Indexing] SQL parameter 'sql.defaultQueryTimeout' was changed from 'null' to '0'
+[16:55:51,290][INFO][main][IgniteH2Indexing] SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
+[16:55:51,290][INFO][main][IgniteStatisticsManagerImpl] Statistics usage state was changed from null to null
+[16:55:51,292][INFO][main][FilePageStoreManager] Cleanup cache stores [total=1, left=0, cleanFiles=false]
+[16:55:51,294][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[16:55:51,294][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[16:55:51,296][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=100.0 MiB, pages=24800, tableSize=1.9 MiB, replacementSize=3.1 KiB, checkpointBuffer=100.0 MiB]
+[16:55:51,297][INFO][main][GridCacheDatabaseSharedManager] Data Regions Started: 5
+[16:55:51,298][INFO][main][GridCacheDatabaseSharedManager] Starting binary memory restore for: [-479252689, -2100569601]
+[16:55:51,676][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[16:55:51,677][INFO][main][GridCacheDatabaseSharedManager] Checking memory state [lastValidPos=WALPointer [idx=1, fileOff=18838549, len=11624], lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[16:55:51,712][INFO][main][GridCacheDatabaseSharedManager] Found last checkpoint marker [cpId=4e2dfa8f-52b1-4931-873e-96122dc57bba, pos=WALPointer [idx=1, fileOff=18838549, len=11624]]
+[16:55:51,716][INFO][main][GridCacheDatabaseSharedManager] Binary memory state restored at node startup [restoredPtr=WALPointer [idx=1, fileOff=18850243, len=0]]
+[16:55:51,738][INFO][main][FileWriteAheadLogManager] Resuming logging to WAL segment [file=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\wal\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\0000000000000001.wal, offset=18850243, ver=2]
+[16:55:51,830][INFO][main][PageMemoryImpl] Started page memory [memoryAllocated=3.2 GiB, pages=803664, tableSize=62.5 MiB, replacementSize=98.1 KiB, checkpointBuffer=809.7 MiB]
+[16:55:51,896][INFO][main][GridCacheProcessor] Started cache in recovery mode [name=my_cache, id=-479252689, dataRegionName=default, mode=PARTITIONED, atomicity=ATOMIC, backups=0]
+[16:55:51,905][INFO][main][GridCacheProcessor] Started cache in recovery mode [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647]
+[16:55:51,907][INFO][main][GridCacheDatabaseSharedManager] Binary recovery performed in 609 ms.
+[16:55:51,909][INFO][main][CheckpointMarkersStorage] Read checkpoint status [startMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-START.bin, endMarker=C:\Users\pipi\OneDrive\桌面\apache-ignite-2.16.0-bin\work\db\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_201_47500\cp\1717418082154-4e2dfa8f-52b1-4931-873e-96122dc57bba-END.bin]
+[16:55:51,910][INFO][main][GridCacheDatabaseSharedManager] Applying lost cache updates since last checkpoint record [lastMarked=WALPointer [idx=1, fileOff=18838549, len=11624], lastCheckpointId=4e2dfa8f-52b1-4931-873e-96122dc57bba]
+[16:55:51,941][INFO][main][GridCacheDatabaseSharedManager] Finished applying WAL changes [updatesApplied=0, time=32 ms]
+[16:55:51,941][INFO][main][GridCacheProcessor] Restoring partition state for local groups.
+[16:55:52,092][INFO][main][GridCacheProcessor] Finished restoring partition state for local groups [groupsProcessed=2, partitionsProcessed=1124, time=152ms]
+[16:55:52,113][WARNING][main][TcpDiscoveryMulticastIpFinder] TcpDiscoveryMulticastIpFinder has no pre-configured addresses (it is recommended in production to specify at least one address in TcpDiscoveryMulticastIpFinder.getAddresses() configuration property)
+[16:55:53,360][INFO][disco-notifier-worker-#89][MvccProcessorImpl] Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], nodeId=9460327f-ba1d-4873-a9e4-7011e8aadc2b, ver=1717664153347, local=true, initialized=false]]
+[16:55:53,363][INFO][sys-#76][ClusterProcessor] Writing cluster ID and tag to metastorage on ready for write ClusterIdAndTag [id=2aaaec85-dc63-4a44-b4a0-40d278124f19, tag=funny_hoover]
+[16:55:53,490][INFO][main][IgniteKernal] Security status [authentication=off, sandbox=off, tls/ssl=off]
+[16:55:53,491][INFO][main][IgniteKernal] Performance suggestions for grid  (fix if possible)
+[16:55:53,491][INFO][main][IgniteKernal] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[16:55:53,491][INFO][main][IgniteKernal]   ^-- Switch to the most recent 11 JVM version
+[16:55:53,492][INFO][main][IgniteKernal]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[16:55:53,492][INFO][main][IgniteKernal] Refer to this page for more performance suggestions: https://ignite.apache.org/docs/latest/perf-and-troubleshooting/memory-tuning
+[16:55:53,492][INFO][main][IgniteKernal] 
+[16:55:53,493][INFO][main][IgniteKernal] 
+
+>>> +-----------------------------------------------------------------------+
+>>> Ignite ver. 2.16.0#20231215-sha1:7bde6a42b7fda05f8058350d30d67e57ada216d0
+>>> +-----------------------------------------------------------------------+
+>>> OS name: Windows 11 10.0 amd64
+>>> CPU(s): 16
+>>> Heap: 1.0GB
+>>> VM name: 19304@MSI
+>>> Local node [ID=9460327F-BA1D-4873-A9E4-7011E8AADC2B, order=1, clientMode=false]
+>>> Local node addresses: [MSI/0:0:0:0:0:0:0:1, /127.0.0.1, /192.168.1.201]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100 UDP:47400 TCP:47500 
+>>> +-----------------------------------------------------------------------+
+
+[16:55:53,493][INFO][main][IgniteKernal] >>> Ignite cluster is in INACTIVE state (limited functionality available). Use control.(sh|bat) script or IgniteCluster.state(ClusterState.ACTIVE) to change the state.
+[16:55:53,496][INFO][main][GridDiscoveryManager] Topology snapshot [ver=1, locNode=9460327f, servers=1, clients=0, state=INACTIVE, CPUs=16, offheap=3.2GB, heap=1.0GB, aliveNodes=[TcpDiscoveryNode [id=9460327f-ba1d-4873-a9e4-7011e8aadc2b, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42]]]
+[16:55:53,496][INFO][main][GridDiscoveryManager]   ^-- Baseline [id=0, size=2, online=1, offline=1]
+[16:55:53,496][INFO][main][GridDiscoveryManager]   ^-- 1 nodes left for auto-activation [5736ef25-46a8-4ba0-8cc1-c9866ba41ae0]
+[16:55:53,497][INFO][main][G] Node started : [stage="Configure system pool" (45 ms),stage="Start managers" (372 ms),stage="Configure binary metadata" (28 ms),stage="Start processors" (420 ms),stage="Init metastore" (219 ms),stage="Init and start regions" (5 ms),stage="Restore binary memory" (609 ms),stage="Restore logical state" (185 ms),stage="Finish recovery" (9 ms),stage="Join topology" (1256 ms),stage="Await transition" (8 ms),stage="Await exchange" (129 ms),stage="Total time" (3285 ms)]
+[16:55:58,311][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63653]
+[16:55:58,313][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63653]
+[16:55:58,314][INFO][tcp-disco-sock-reader-[]-#6-#98][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63653, rmtPort=63653]
+[16:55:58,318][INFO][tcp-disco-sock-reader-[fc27baae 192.168.1.206:63653]-#6-#98][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=fc27baae-b536-4cf1-8986-530158b897d4, rmtAddr=/192.168.1.206:63653]
+[16:55:58,360][INFO][tcp-disco-sock-reader-[fc27baae 192.168.1.206:63653]-#6-#98][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63653, rmtPort=63653, rmtNodeId=fc27baae-b536-4cf1-8986-530158b897d4]
+[16:55:58,369][INFO][tcp-disco-msg-worker-[crd]-#2-#90][GridEncryptionManager] Joining node doesn't have stored group keys [node=fc27baae-b536-4cf1-8986-530158b897d4]
+[16:55:58,385][WARNING][disco-pool-#99][TcpDiscoverySpi] BaselineTopology of joining node (ed29a8b3-29e0-487d-a7bd-ab1d970b3269) is not compatible with BaselineTopology in the cluster. Branching history of cluster BlT ([-2221453726]) doesn't contain branching point hash of joining node BlT (703679851). Consider cleaning persistent storage of the node and adding it to the cluster again.
+[16:55:58,811][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63655]
+[16:55:58,811][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63655]
+[16:55:58,811][INFO][tcp-disco-sock-reader-[]-#7-#100][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63655, rmtPort=63655]
+[16:55:58,812][INFO][tcp-disco-sock-reader-[]-#7-#100][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63655, rmtPort=63655]
+[16:55:58,812][INFO][tcp-disco-sock-reader-[]-#7-#100][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63655, rmtPort=63655]
+[16:55:58,812][INFO][tcp-disco-sock-reader-[]-#7-#100][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63655, rmtPort=63655, rmtNodeId=null]
+[16:56:03,437][INFO][ignite-update-notifier-timer][GridUpdateNotifier] Your version is up to date.
+[16:56:05,056][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.133, rmtPort=53339]
+[16:56:05,056][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.133, rmtPort=53339]
+[16:56:05,057][INFO][tcp-disco-sock-reader-[]-#8-#101][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.133:53339, rmtPort=53339]
+[16:56:05,060][INFO][tcp-disco-sock-reader-[bca774c9 192.168.1.133:53339]-#8-#101][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=bca774c9-6f55-4610-8068-837e9a3a4d46, rmtAddr=/192.168.1.133:53339]
+[16:56:05,092][INFO][tcp-disco-sock-reader-[bca774c9 192.168.1.133:53339]-#8-#101][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.133:53339, rmtPort=53339, rmtNodeId=bca774c9-6f55-4610-8068-837e9a3a4d46]
+[16:56:05,095][INFO][tcp-disco-msg-worker-[crd]-#2-#90][GridEncryptionManager] Joining node doesn't have stored group keys [node=bca774c9-6f55-4610-8068-837e9a3a4d46]
+[16:56:05,119][INFO][tcp-disco-msg-worker-[crd]-#2-#90][TcpDiscoverySpi] New next node [newNext=TcpDiscoveryNode [id=bca774c9-6f55-4610-8068-837e9a3a4d46, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=0, intOrder=2, lastExchangeTime=1717664165074, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]]
+[16:56:05,166][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.133, rmtPort=53340]
+[16:56:05,166][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.133, rmtPort=53340]
+[16:56:05,166][INFO][tcp-disco-sock-reader-[]-#9-#102][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.133:53340, rmtPort=53340]
+[16:56:05,166][INFO][tcp-disco-sock-reader-[bca774c9 192.168.1.133:53340]-#9-#102][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=bca774c9-6f55-4610-8068-837e9a3a4d46, rmtAddr=/192.168.1.133:53340]
+[16:56:05,177][INFO][disco-event-worker-#94][GridDiscoveryManager] Added new node to topology: TcpDiscoveryNode [id=bca774c9-6f55-4610-8068-837e9a3a4d46, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=2, intOrder=2, lastExchangeTime=1717664165074, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]
+[16:56:05,178][INFO][disco-event-worker-#94][GridDiscoveryManager] Topology snapshot [ver=2, locNode=9460327f, servers=2, clients=0, state=INACTIVE, CPUs=24, offheap=6.4GB, heap=5.0GB, aliveNodes=[TcpDiscoveryNode [id=9460327f-ba1d-4873-a9e4-7011e8aadc2b, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42], TcpDiscoveryNode [id=bca774c9-6f55-4610-8068-837e9a3a4d46, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42]]]
+[16:56:05,178][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- Baseline [id=0, size=2, online=1, offline=1]
+[16:56:05,178][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- 1 nodes left for auto-activation [5736ef25-46a8-4ba0-8cc1-c9866ba41ae0]
+[16:56:05,262][INFO][disco-event-worker-#94][GridDiscoveryManager] Node left topology: TcpDiscoveryNode [id=bca774c9-6f55-4610-8068-837e9a3a4d46, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=2, intOrder=2, lastExchangeTime=1717664165074, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]
+[16:56:05,263][INFO][disco-event-worker-#94][GridDiscoveryManager] Topology snapshot [ver=3, locNode=9460327f, servers=1, clients=0, state=INACTIVE, CPUs=16, offheap=3.2GB, heap=1.0GB, aliveNodes=[TcpDiscoveryNode [id=9460327f-ba1d-4873-a9e4-7011e8aadc2b, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42]]]
+[16:56:05,263][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- Baseline [id=0, size=2, online=1, offline=1]
+[16:56:05,263][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- 1 nodes left for auto-activation [5736ef25-46a8-4ba0-8cc1-c9866ba41ae0]
+[16:56:05,675][INFO][tcp-disco-sock-reader-[bca774c9 192.168.1.133:53340]-#9-#102][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.133:53340, rmtPort=53340, rmtNodeId=bca774c9-6f55-4610-8068-837e9a3a4d46]
+[16:56:53,500][INFO][grid-timeout-worker-#38][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=9460327f, uptime=00:01:00.010]
+    ^-- Cluster [hosts=1, CPUs=16, servers=1, clients=0, topVer=3, minorTopVer=0]
+    ^-- Network [addrs=[0:0:0:0:0:0:0:1, 127.0.0.1, 192.168.1.201], discoPort=47500, commPort=47100]
+    ^-- CPU [CPUs=16, curLoad=0.07%, avgLoad=0.02%, GC=0%]
+    ^-- Heap [used=94MB, free=90.79%, comm=1024MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=2, qSize=0]
+    ^-- System thread pool [active=0, idle=10, qSize=0]
+    ^-- Striped thread pool [active=0, idle=16, qSize=0]
+[16:56:56,863][WARNING][tcp-disco-ip-finder-cleaner-#5-#93][TcpDiscoverySpi] Failed to ping node [nodeId=null]. Reached the timeout 10000ms. Cause: Connection refused: getsockopt
+[16:56:56,863][WARNING][tcp-disco-ip-finder-cleaner-#5-#93][TcpDiscoverySpi] Failed to ping node [nodeId=null]. Was unable to open the socket at all. Cause: no such interface lo0
+[16:57:00,075][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63667]
+[16:57:00,075][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63667]
+[16:57:00,075][INFO][tcp-disco-sock-reader-[]-#10-#107][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63667, rmtPort=63667]
+[16:57:00,075][INFO][tcp-disco-sock-reader-[]-#10-#107][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63667, rmtPort=63667]
+[16:57:00,076][INFO][tcp-disco-sock-reader-[]-#10-#107][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63667, rmtPort=63667]
+[16:57:00,076][INFO][tcp-disco-sock-reader-[]-#10-#107][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63667, rmtPort=63667, rmtNodeId=null]
+[16:57:53,508][INFO][grid-timeout-worker-#38][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=9460327f, uptime=00:02:00.012]
+    ^-- Cluster [hosts=1, CPUs=16, servers=1, clients=0, topVer=3, minorTopVer=0]
+    ^-- Network [addrs=[0:0:0:0:0:0:0:1, 127.0.0.1, 192.168.1.201], discoPort=47500, commPort=47100]
+    ^-- CPU [CPUs=16, curLoad=0%, avgLoad=0.02%, GC=0%]
+    ^-- Heap [used=97MB, free=90.5%, comm=1024MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=6, qSize=0]
+    ^-- Striped thread pool [active=0, idle=16, qSize=0]
+[16:58:01,343][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63670]
+[16:58:01,343][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63670]
+[16:58:01,343][INFO][tcp-disco-sock-reader-[]-#11-#116][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63670, rmtPort=63670]
+[16:58:01,343][INFO][tcp-disco-sock-reader-[]-#11-#116][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63670, rmtPort=63670]
+[16:58:01,344][INFO][tcp-disco-sock-reader-[]-#11-#116][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63670, rmtPort=63670]
+[16:58:01,344][INFO][tcp-disco-sock-reader-[]-#11-#116][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63670, rmtPort=63670, rmtNodeId=null]
+[16:58:20,352][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.133, rmtPort=53359]
+[16:58:20,352][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.133, rmtPort=53359]
+[16:58:20,352][INFO][tcp-disco-sock-reader-[]-#12-#119][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.133:53359, rmtPort=53359]
+[16:58:20,356][INFO][tcp-disco-sock-reader-[0db04f13 192.168.1.133:53359]-#12-#119][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=0db04f13-77b4-49c6-92ff-98116858adee, rmtAddr=/192.168.1.133:53359]
+[16:58:20,393][INFO][tcp-disco-sock-reader-[0db04f13 192.168.1.133:53359]-#12-#119][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.133:53359, rmtPort=53359, rmtNodeId=0db04f13-77b4-49c6-92ff-98116858adee]
+[16:58:20,395][INFO][tcp-disco-msg-worker-[crd]-#2-#90][GridEncryptionManager] Joining node doesn't have stored group keys [node=0db04f13-77b4-49c6-92ff-98116858adee]
+[16:58:20,405][INFO][tcp-disco-msg-worker-[crd]-#2-#90][TcpDiscoverySpi] New next node [newNext=TcpDiscoveryNode [id=0db04f13-77b4-49c6-92ff-98116858adee, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=0, intOrder=3, lastExchangeTime=1717664300370, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]]
+[16:58:20,447][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.133, rmtPort=53360]
+[16:58:20,447][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.133, rmtPort=53360]
+[16:58:20,447][INFO][tcp-disco-sock-reader-[]-#13-#120][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.133:53360, rmtPort=53360]
+[16:58:20,448][INFO][tcp-disco-sock-reader-[0db04f13 192.168.1.133:53360]-#13-#120][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=0db04f13-77b4-49c6-92ff-98116858adee, rmtAddr=/192.168.1.133:53360]
+[16:58:20,468][INFO][disco-event-worker-#94][GridDiscoveryManager] Added new node to topology: TcpDiscoveryNode [id=0db04f13-77b4-49c6-92ff-98116858adee, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=4, intOrder=3, lastExchangeTime=1717664300370, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]
+[16:58:20,469][INFO][disco-event-worker-#94][GridDiscoveryManager] Topology snapshot [ver=4, locNode=9460327f, servers=2, clients=0, state=INACTIVE, CPUs=24, offheap=6.4GB, heap=5.0GB, aliveNodes=[TcpDiscoveryNode [id=9460327f-ba1d-4873-a9e4-7011e8aadc2b, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42], TcpDiscoveryNode [id=0db04f13-77b4-49c6-92ff-98116858adee, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42]]]
+[16:58:20,469][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- Baseline [id=0, size=2, online=1, offline=1]
+[16:58:20,469][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- 1 nodes left for auto-activation [5736ef25-46a8-4ba0-8cc1-c9866ba41ae0]
+[16:58:20,551][INFO][disco-event-worker-#94][GridDiscoveryManager] Node left topology: TcpDiscoveryNode [id=0db04f13-77b4-49c6-92ff-98116858adee, consistentId=0:0:0:0:0:0:0:1%lo0,127.0.0.1,192.168.1.133:47500, addrs=ArrayList [0:0:0:0:0:0:0:1%lo0, 127.0.0.1, 192.168.1.133], sockAddrs=HashSet [/192.168.1.133:47500, /127.0.0.1:47500, 0:0:0:0:0:0:0:1%lo0/<unresolved>:47500], discPort=47500, order=4, intOrder=3, lastExchangeTime=1717664300370, loc=false, ver=2.16.0#20231215-sha1:7bde6a42, isClient=false]
+[16:58:20,552][INFO][disco-event-worker-#94][GridDiscoveryManager] Topology snapshot [ver=5, locNode=9460327f, servers=1, clients=0, state=INACTIVE, CPUs=16, offheap=3.2GB, heap=1.0GB, aliveNodes=[TcpDiscoveryNode [id=9460327f-ba1d-4873-a9e4-7011e8aadc2b, consistentId=0:0:0:0:0:0:0:1,127.0.0.1,192.168.1.201:47500, isClient=false, ver=2.16.0#20231215-sha1:7bde6a42]]]
+[16:58:20,552][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- Baseline [id=0, size=2, online=1, offline=1]
+[16:58:20,552][INFO][disco-event-worker-#94][GridDiscoveryManager]   ^-- 1 nodes left for auto-activation [5736ef25-46a8-4ba0-8cc1-c9866ba41ae0]
+[16:58:20,965][INFO][tcp-disco-sock-reader-[0db04f13 192.168.1.133:53360]-#13-#120][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.133:53360, rmtPort=53360, rmtNodeId=0db04f13-77b4-49c6-92ff-98116858adee]
+[16:58:23,608][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63685]
+[16:58:23,608][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63685]
+[16:58:23,608][INFO][tcp-disco-sock-reader-[]-#14-#127][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63685, rmtPort=63685]
+[16:58:23,612][INFO][tcp-disco-sock-reader-[e3761343 192.168.1.206:63685]-#14-#127][TcpDiscoverySpi] Initialized connection with remote server node [nodeId=e3761343-2346-4292-b392-72a240de9721, rmtAddr=/192.168.1.206:63685]
+[16:58:23,649][INFO][tcp-disco-sock-reader-[e3761343 192.168.1.206:63685]-#14-#127][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63685, rmtPort=63685, rmtNodeId=e3761343-2346-4292-b392-72a240de9721]
+[16:58:23,651][INFO][tcp-disco-msg-worker-[crd]-#2-#90][GridEncryptionManager] Joining node doesn't have stored group keys [node=e3761343-2346-4292-b392-72a240de9721]
+[16:58:53,511][INFO][grid-timeout-worker-#38][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=9460327f, uptime=00:03:00.017]
+    ^-- Cluster [hosts=1, CPUs=16, servers=1, clients=0, topVer=5, minorTopVer=0]
+    ^-- Network [addrs=[0:0:0:0:0:0:0:1, 127.0.0.1, 192.168.1.201], discoPort=47500, commPort=47100]
+    ^-- CPU [CPUs=16, curLoad=0%, avgLoad=0.02%, GC=0%]
+    ^-- Heap [used=104MB, free=89.82%, comm=1024MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=2, qSize=0]
+    ^-- System thread pool [active=0, idle=10, qSize=0]
+    ^-- Striped thread pool [active=0, idle=16, qSize=0]
+[16:59:01,396][WARNING][tcp-disco-ip-finder-cleaner-#5-#93][TcpDiscoverySpi] Failed to ping node [nodeId=null]. Reached the timeout 10000ms. Cause: Connection refused: getsockopt
+[16:59:01,396][WARNING][tcp-disco-ip-finder-cleaner-#5-#93][TcpDiscoverySpi] Failed to ping node [nodeId=null]. Was unable to open the socket at all. Cause: no such interface lo0
+[16:59:02,590][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63689]
+[16:59:02,590][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63689]
+[16:59:02,590][INFO][tcp-disco-sock-reader-[]-#15-#134][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63689, rmtPort=63689]
+[16:59:02,591][INFO][tcp-disco-sock-reader-[]-#15-#134][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63689, rmtPort=63689]
+[16:59:02,591][INFO][tcp-disco-sock-reader-[]-#15-#134][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63689, rmtPort=63689]
+[16:59:02,591][INFO][tcp-disco-sock-reader-[]-#15-#134][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63689, rmtPort=63689, rmtNodeId=null]
+[16:59:53,517][INFO][grid-timeout-worker-#38][IgniteKernal] 
+Metrics for local node (to disable set 'metricsLogFrequency' to 0)
+    ^-- Node [id=9460327f, uptime=00:04:00.024]
+    ^-- Cluster [hosts=1, CPUs=16, servers=1, clients=0, topVer=5, minorTopVer=0]
+    ^-- Network [addrs=[0:0:0:0:0:0:0:1, 127.0.0.1, 192.168.1.201], discoPort=47500, commPort=47100]
+    ^-- CPU [CPUs=16, curLoad=0%, avgLoad=0.01%, GC=0%]
+    ^-- Heap [used=107MB, free=89.53%, comm=1024MB]
+    ^-- Outbound messages queue [size=0]
+    ^-- Public thread pool [active=0, idle=0, qSize=0]
+    ^-- System thread pool [active=0, idle=7, qSize=0]
+    ^-- Striped thread pool [active=0, idle=16, qSize=0]
+[17:00:03,838][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery accepted incoming connection [rmtAddr=/192.168.1.206, rmtPort=63705]
+[17:00:03,838][INFO][tcp-disco-srvr-[:47500]-#3-#91][TcpDiscoverySpi] TCP discovery spawning a new thread for connection [rmtAddr=/192.168.1.206, rmtPort=63705]
+[17:00:03,838][INFO][tcp-disco-sock-reader-[]-#16-#143][TcpDiscoverySpi] Started serving remote node connection [rmtAddr=/192.168.1.206:63705, rmtPort=63705]
+[17:00:03,839][INFO][tcp-disco-sock-reader-[]-#16-#143][TcpDiscoverySpi] Received ping request from the remote node [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63705, rmtPort=63705]
+[17:00:03,839][INFO][tcp-disco-sock-reader-[]-#16-#143][TcpDiscoverySpi] Finished writing ping response [rmtNodeId=59221c4a-99af-4632-827c-2de3783b9932, rmtAddr=/192.168.1.206:63705, rmtPort=63705]
+[17:00:03,839][INFO][tcp-disco-sock-reader-[]-#16-#143][TcpDiscoverySpi] Finished serving remote node connection [rmtAddr=/192.168.1.206:63705, rmtPort=63705, rmtNodeId=null]
+[17:00:12,087][INFO][shutdown-hook][G] Invoking shutdown hook...

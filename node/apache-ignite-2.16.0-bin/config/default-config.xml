@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
+        
+        <!-- Cache Configuration -->
+        <property name="cacheConfiguration">
+            <list>
+                <!-- Partitioned cache configuration -->
+                <bean class="org.apache.ignite.configuration.CacheConfiguration">
+                    <!-- Set cache name -->
+                    <property name="name" value="my_cache"/>
+                    <!-- Set cache mode to PARTITIONED -->
+                    <property name="cacheMode" value="PARTITIONED"/>
+                    <!-- Set the number of backups -->
+                    <property name="backups" value="1"/>
+                    <!-- Set atomicity mode to TRANSACTIONAL -->
+                    <property name="atomicityMode" value="TRANSACTIONAL"/>
+                </bean>
+            </list>
+        </property>
+        
+        <!-- Discovery SPI Configuration -->
+        <property name="discoverySpi">
+            <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
+                <property name="ipFinder">
+                    <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">
+                        <property name="addresses">
+                            <list>
+                                <value>228.10.10.157:47500..47509</value>
+                            </list>
+                        </property>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+        
+        <!-- Persistence Configuration -->
+        <property name="dataStorageConfiguration">
+            <bean class="org.apache.ignite.configuration.DataStorageConfiguration">
+                <property name="defaultDataRegionConfiguration">
+                    <bean class="org.apache.ignite.configuration.DataRegionConfiguration">
+                        <property name="persistenceEnabled" value="true"/>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+
+    </bean>
+</beans>
